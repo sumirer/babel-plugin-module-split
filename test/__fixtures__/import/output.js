@@ -1,0 +1,17 @@
+import * as Test from "./utils/Test";
+import * as Test1 from "./utils/Test1";
+import { write as fsWrite } from "fs";
+import { write } from "fs";
+import * as Next from "./utils/Test";
+import * as Next1 from "./utils/Test1";
+import * as Test13 from './utils/Test';
+import { default as NextTest } from "./utils2/Test";
+import { default as Nexttext1 } from "./utils2/Test1";
+Test.testMode();
+Next.testMode();
+Test1.testMode1();
+Next1.testMode1();
+NextTest();
+Nexttext1();
+fsWrite();
+write();
