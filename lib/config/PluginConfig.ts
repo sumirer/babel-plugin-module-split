@@ -1,6 +1,6 @@
 import * as babel from '@babel/core';
 import { getAbsolutePath, getPath } from '../utils';
-interface IModulesConfig {
+export interface IModulesConfig {
   match: RegExp;
   root: string;
   modulePath?: string;
